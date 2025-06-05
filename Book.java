@@ -5,13 +5,13 @@ public class Book {
     private String genre;
     private int totalCopies;
     private int availableCopies;
-    private static int nextId = 1;
+    private static int uId = 1;
 
     public Book(String title, String author, String genre, int totalCopies) {
         this.bookId = nextId++;
         //can be written like this,
-        // this.bookId = nextId;
-        //nextId++;
+        // this.uId = uId;
+        //uId++;
         this.title = title;
         this.author = author;
         this.genre = genre;
